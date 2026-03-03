@@ -1,7 +1,7 @@
 ---
 title: React Navigation 8.0 Alpha
 authors: satya
-tags: [announcement]
+tags: [release, announcement]
 ---
 
 import Tabs from '@theme/Tabs';
