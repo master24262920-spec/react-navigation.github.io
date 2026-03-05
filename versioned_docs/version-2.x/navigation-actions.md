@@ -1,4 +1,11 @@
----
+---import { NavigationActions } from 'react-navigation';
+
+const setParamsAction = NavigationActions.setParams({
+  params: { title: 'Hello' },
+  key: 'screen-123',
+});
+this.props.navigation.dispatch(setParamsAction);
+
 id: navigation-actions
 title: NavigationActions reference
 sidebar_label: NavigationActions
