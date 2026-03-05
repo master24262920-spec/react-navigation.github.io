@@ -1,4 +1,7 @@
----
+import { Package } from "miot";
+import App from "./components/app";
+
+Package.entry(App);---
 id: api-reference
 title: API Reference
 sidebar_label: Overview
